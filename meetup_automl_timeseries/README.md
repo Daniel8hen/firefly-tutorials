@@ -1,8 +1,8 @@
-# Time Series Workshop Tutorial and Exercises
+# AutoML and Timeseries meetup - Hands On
 
 ## Setup
 
-You need to have Python 2.7 installed and be able to include the following libraries:
+You need to have Python 3.5 installed and be able to include the following libraries:
 `numpy>=1.11`, `pandas>=0.19`, `sklearn>=0.18`, `matplotlib`, `IPython`
 
 ### Linux / Mac Setup
@@ -13,10 +13,6 @@ pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose, sci
 ### Windows Setup
 Download and install Anaconda:
 https://repo.continuum.io/archive/Anaconda2-5.0.1-Windows-x86_64.exe
-
-### Download the workshop files
-Download and unzip:
-https://github.com/mds47/time-series-workshop/archive/master.zip
 
 ## Start Jupyter Notebook
 1. Open command line terminal
