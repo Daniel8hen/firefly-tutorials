@@ -3,7 +3,7 @@ import numpy
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import ElasticNet
 
-from meetup_automl_timeseries.configurations import HyperParameter, ConfigSpace
+from configurations import HyperParameter, ConfigSpace
 
 
 #region estimators
@@ -87,7 +87,8 @@ class ConstantFeature():
     def get_hyperparameters(cls):
         active = HyperParameter(name='active', min_value=0, max_value=1, discrete=True)
         n_lags = HyperParameter(name='n_lags', min_value=3, max_value=6, discrete=True)
-        return [n_lags, active]
+        window_size = HyperParameter(name='window_size', min_value=12, max_value=72, discrete=True)
+        return [n_lags, active, window_size]
 
 
 #endregion
