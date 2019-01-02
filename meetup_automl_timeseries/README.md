@@ -3,11 +3,11 @@
 ## Setup
 
 You need to have Python 3.5 installed and be able to include the following libraries:
-`numpy>=1.11`, `pandas>=0.19`, `sklearn>=0.18`, `matplotlib`, `IPython`
+`numpy>=1.11`, `pandas>=0.19`, `sklearn>=0.18`, `matplotlib`, `IPython`, `tsfresh`
 
 ### Linux / Mac Setup
 ```
-pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose, scikit-learn
+pip3 install --user numpy scipy matplotlib ipython jupyter pandas sympy nose, scikit-learn, tsfresh
 ```
 
 ### Windows Setup
