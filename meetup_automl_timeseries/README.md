@@ -16,7 +16,7 @@ https://repo.continuum.io/archive/Anaconda2-5.0.1-Windows-x86_64.exe
 
 ## Start Jupyter Notebook
 1. Open command line terminal
-1. Browse to the folder that you unziped the workshop files to `time-series-workshop-master/`
+1. Browse to the folder that you unziped the workshop files to `meetup_automl_timeseries/`
 1. At the command line, run `jupyter notebook`
 1. Open your web browser to the directed url
 1. In the browser, select the "HandsOn.ipynb" entry
